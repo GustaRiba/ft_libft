@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+         #
+#    By: gmorais- < gmorais-@student.42lisboa.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/28 11:31:30 by gmorais-          #+#    #+#              #
-#    Updated: 2022/11/07 17:24:15 by gmorais-         ###   ########.fr        #
+#    Updated: 2022/11/08 11:12:55 by gmorais-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ ft_itoa ft_substr ft_strjoin ft_strtrim ft_strmapi ft_striteri\
 ft_split\
 
 BONUS = ft_lstnew ft_lstadd_front ft_lstsize ft_lstlast\
-ft_lstadd_back\
+ft_lstadd_back ft_lstdelone ft_lstclear ft_lstiter ft_lstmap\
 
 
 CC =gcc

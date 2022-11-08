@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: gustavoribeiro <gustavoribeiro@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/04 10:45:13 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/11/04 11:43:39 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/07 22:52:30 by gustavoribe      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
