@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/28 15:07:44 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/28 15:25:09 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 11:07:54 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,3 +22,5 @@ void	*ft_calloc(size_t number, size_t size)
 	ft_bzero(ptr, number * size);
 	return (ptr);
 }
+
+/*aloca memoria num array com zeros dentro*/

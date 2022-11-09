@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 12:03:15 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/28 14:34:28 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 12:32:41 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,5 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[b] = '\0';
 	return (dst_size + src_size);
 }
+/*une "dst" com "src".
+retorna o tamanho final da uniao das stings.*/

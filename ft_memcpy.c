@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 18:38:12 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/28 11:30:20 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 11:29:31 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,5 @@ void	*ft_memcpy(void *s1, const void *s2, size_t n)
 	}
 	return (s1);
 }
+
+/*copia o conteudo de s2 para s1.*/

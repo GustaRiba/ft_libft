@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 12:29:30 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/28 13:03:06 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 11:57:45 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,6 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s);
 	return (0);
 }
+
+/*procura dentro do "*s" o "c"
+*se encontrar, returna o "*s" comecando no "c"*/

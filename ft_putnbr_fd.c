@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 11:19:25 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/31 15:50:42 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 11:35:59 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,31 +41,4 @@ void	ft_putnbr_fd(int n, int fd)
 	}
 }
 
-/*void	ft_putnbr_fd(int n, int fd)
-{
-	char	c;
-
-	c = n + 48;
-	if (n >= INT_MIN && n <= INT_MAX)
-	{
-		if (n > 9)
-		{
-			ft_putnbr_fd(n / 10, fd);
-			ft_putnbr_fd(n % 10, fd);
-		}
-		else if (n == -2147483648)
-		{
-			write(fd, "-", 1);
-			write(fd, "2", 1);
-			write(fd, "147483648", 9);
-		}
-		else if (n < 0)
-		{
-			n = -n;
-			write(fd, "-", 1);
-			ft_putnbr_fd(n, fd);
-		}
-		else
-			write(fd, &c, 1);
-	}
-}*/
+/*escreve o numero que pedimos.*/

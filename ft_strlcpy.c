@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 12:03:43 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/11/04 14:41:42 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 12:42:46 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (srcsize);
 }
+
+/*copia o conteudo do "src" para o "dst".
+"dstsize" indica o  numero de carcteres para copiar.
+returna o tamanho de src.q*/

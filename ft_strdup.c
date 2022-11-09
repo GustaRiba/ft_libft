@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/28 15:29:16 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/28 15:36:03 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 12:13:58 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,3 +22,6 @@ char	*ft_strdup(const char *str)
 	ft_memcpy(dst, str, ft_strlen(str) + 1);
 	return (dst);
 }
+
+/*passa o "str" para um espaco alocado de memoria (dst).
+usa o ft_memcpy para fzr a copia de str para dst.*/

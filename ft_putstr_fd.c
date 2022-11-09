@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 11:04:30 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/29 11:04:30 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 11:36:22 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,5 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
+
+/*escreve a string.*/

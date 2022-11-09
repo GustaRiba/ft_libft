@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/04 12:49:44 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/11/04 14:21:46 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 16:50:15 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,9 +33,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	return (ft_memcpy(prt, s + start, len));
 }
 
-/*#include <stdio.h>
-int main()
-{
-	char teste[] = "paulochatoparacaralho";
-	printf("%s", ft_substr(teste, 422, 5));
-}*/
+/*vai se dar um separador e a funcao vai eliminar td
+ate ao primeiro separador e td o q esta para a
+frente do segundo
+ex: s1 = www.google.com, set = '.'
+res: google*/

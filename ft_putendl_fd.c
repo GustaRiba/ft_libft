@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 11:14:27 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/31 12:05:38 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 11:35:01 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,5 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
+
+/*escreve o "c" e uma quebra de linha*/

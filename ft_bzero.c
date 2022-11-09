@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 11:56:36 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/26 11:59:05 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 11:07:01 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,5 @@ void	ft_bzero(void *s, size_t n)
 {
 	ft_memset(s, '\0', n);
 }
+
+/*substitui por 0*/

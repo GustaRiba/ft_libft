@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 12:04:41 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/28 12:35:41 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 12:43:23 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,6 @@ int	ft_strlen(const char *str)
 	}
 	return (i);
 }
+
+/*conta o numero de carcteres da string.
+um contador simples.*/

@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/04 15:25:30 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/11/04 15:42:46 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 12:21:07 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,5 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
+
+/*aplica a funcao "f" em cada caracter na str*/

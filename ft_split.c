@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 10:57:28 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/11/07 12:09:02 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 16:42:36 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,10 @@ static int	wordcount(char const *str, char separ)
 	return (i);
 }
 
+/*conta o numero de palavras.
+sempre q encontra 2 separadores seguidos
+ignora e avanca na string*/
+
 static int	ft_size_word(char const *s, char c, int i)
 {
 	int	size;
@@ -45,6 +49,9 @@ static int	ft_size_word(char const *s, char c, int i)
 	}
 	return (size);
 }
+
+/*vai escrever para dentro da memoria alocada
+a nova palavra*/
 
 char	**ft_split(char const *s, char c)
 {
@@ -71,3 +78,6 @@ char	**ft_split(char const *s, char c)
 	newstr[j] = '\0';
 	return (newstr);
 }
+
+/*ptr vai estar a alocar mem para tds as string
+que vao existir*/

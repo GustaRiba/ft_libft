@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 17:29:26 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/28 12:55:13 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 11:28:55 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,7 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+
+/*procura a diferenca entre as strings (s1 e s2).
+retorna essa diferenca. 
+"n" determina qunatos caracteres vao ser comparados.*/

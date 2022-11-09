@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 15:48:57 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/26 16:43:05 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 12:10:56 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,3 +27,7 @@ void	*ft_memchr(const void *s, int c, size_t len)
 		return (&s2[i]);
 	return (NULL);
 }
+
+/*procura dentro do "*s" o "c".
+se encontrar, returna o "*s" comecando no "c".
+len define por quantos caracteres percorrer*/

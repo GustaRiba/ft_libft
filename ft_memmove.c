@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/26 11:54:55 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/28 12:20:31 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 11:33:45 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,3 +40,7 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
+
+/*move o conteudo de "src" para "dst".
+caso "dst" seja menor que "str" movemos o conteudo comecando pelo fim.
+retornamos o dst.*/

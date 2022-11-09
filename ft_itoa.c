@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gustavoribeiro <gustavoribeiro@student.    +#+  +:+       +#+        */
+/*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/04 10:45:13 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/11/07 22:52:30 by gustavoribe      ###   ########.fr       */
+/*   Updated: 2022/11/09 11:19:38 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*ft_itoa(int n)
 	num = (long)n * negativo(n);
 	while (n)
 	{
-		n /= 10;
+		n = n / 10;
 		len++;
 	}
 	res = (char *)malloc(len + 1);
@@ -54,9 +54,6 @@ char	*ft_itoa(int n)
 		*(res + len) = '-';
 	return (res);
 }
-/*#include <stdio.h>
-int main()
-{
-	printf("numero 13 -> \t%s\n", ft_itoa (0));
-	printf("numero 13 -> \t%s\n", ft_itoa (-14));
-}*/
+
+/*transforma um int em um char.
+escreve de traz para a frente*/

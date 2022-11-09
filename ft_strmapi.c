@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/04 15:11:09 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/11/04 15:24:06 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 12:53:03 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	}
 	return (dst);
 }
+
+/*aplica a funcao "f" em todos os carteres da string.
+e adicona a string num espaco de memoria alocado.
+chamo a funcao strdup para alocar memoria.*/

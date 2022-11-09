@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/04 14:50:17 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/11/04 15:02:48 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 12:26:18 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,6 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	dst[i] = '\0';
 	return (dst);
 }
+
+/*junta "s1" e "s2" dentro dum espaco de memoria alucado.
+returna a memoria alucada.*/

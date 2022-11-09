@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gmorais- < gmorais-@student.42lisboa.co    +#+  +:+       +#+        */
+/*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 10:55:56 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/11/08 11:11:44 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 10:46:43 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*res;
 	t_list	*temp;
+
 	if (!lst || !f || !del)
 		return (0);
 	res = 0;
@@ -27,7 +28,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 			ft_lstclear(&res, del);
 			return (0);
 		}
-		ft_lstadd_back(&res , del);
+		ft_lstadd_back(&res, temp);
 		lst = lst->next;
 	}
 	return (res);

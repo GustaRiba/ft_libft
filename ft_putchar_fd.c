@@ -6,7 +6,7 @@
 /*   By: gmorais- <gmorais-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 11:21:01 by gmorais-          #+#    #+#             */
-/*   Updated: 2022/10/31 14:46:46 by gmorais-         ###   ########.fr       */
+/*   Updated: 2022/11/09 11:34:42 by gmorais-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,5 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
+
+/*escreve o "c"*/
